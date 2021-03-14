@@ -1,0 +1,27 @@
+--------------------------------------------------------
+--  File created - Friday-December-25-2020   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table DYN_ORDERS_UPD
+--------------------------------------------------------
+
+  CREATE TABLE "ORA16"."DYN_ORDERS_UPD" 
+   (	"DYN_ORD_ID" NUMBER, 
+	"DYN_ACCT_ID" NUMBER, 
+	"DYN_QUOTE_ID" NUMBER, 
+	"DYN_CAT_ID" NUMBER
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into ORA16.DYN_ORDERS_UPD
+SET DEFINE OFF;
+Insert into ORA16.DYN_ORDERS_UPD (DYN_ORD_ID,DYN_ACCT_ID,DYN_QUOTE_ID,DYN_CAT_ID) values (99990001,88880001,77770001,55550001);
+Insert into ORA16.DYN_ORDERS_UPD (DYN_ORD_ID,DYN_ACCT_ID,DYN_QUOTE_ID,DYN_CAT_ID) values (99990002,88880002,77770002,55550002);
+Insert into ORA16.DYN_ORDERS_UPD (DYN_ORD_ID,DYN_ACCT_ID,DYN_QUOTE_ID,DYN_CAT_ID) values (99990003,88880002,77770002,55550002);
+--------------------------------------------------------
+--  Constraints for Table DYN_ORDERS_UPD
+--------------------------------------------------------
+
+  ALTER TABLE "ORA16"."DYN_ORDERS_UPD" MODIFY ("DYN_ORD_ID" NOT NULL ENABLE);

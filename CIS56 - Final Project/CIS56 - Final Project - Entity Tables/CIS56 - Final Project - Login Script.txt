@@ -1,0 +1,5 @@
+SET serveroutput ON
+SET timing ON
+SET sqlformat ansiconsole
+SET pagesize 25
+SET linesize 80
